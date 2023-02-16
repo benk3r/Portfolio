@@ -12,7 +12,6 @@ namespace Tools.Tests
   [TestClass]
   public class MathHelperTests
   {
-
     [TestMethod]
     public void ConvertRadiansToDegreesTest()
     {
@@ -24,8 +23,7 @@ namespace Tools.Tests
     {
       Assert.IsTrue(MathHelper.LawOfCosinesForGamma(3, 4, 5) == 1.5707963267948966);
       Assert.IsTrue(MathHelper.LawOfCosinesForGamma(20, 22, 18) == 0.881021326009397);
-    }
-
+    } 
 
   }
 }
