@@ -40,5 +40,9 @@ namespace Tools.Tests
     }
 
     #endregion Trigonometry
+
+    #region Probability
+
+    #endregion Probability
   }
 }

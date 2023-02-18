@@ -32,5 +32,9 @@ namespace Tools
     }
 
     #endregion Trigonometry
+
+    #region Probability
+
+    #endregion Probability
   }
 }
