@@ -7,10 +7,10 @@ namespace Tools
     #region Arithmetic
 
     /// <param name="number"></param>
-    /// <returns>bool representing if the number is odd.</returns>
-    public static bool IsOdd(long number)
+    /// <returns>bool representing if the number is even.</returns>
+    public static bool IsEven(long number)
     {
-      return (number % 2 == 0);
+      return number % 2 == 0;
     }
 
     #endregion Arithmetic

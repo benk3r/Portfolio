@@ -18,8 +18,8 @@ namespace Tools.Tests
     [TestMethod] 
     public void IsOddTest()
     {
-      Assert.IsTrue(MathHelper.IsOdd(5));
-      Assert.IsFalse(MathHelper.IsOdd(6));
+      Assert.IsTrue(MathHelper.IsEven(6));
+      Assert.IsFalse(MathHelper.IsEven(5));
     }
 
     #endregion Arithmetic
