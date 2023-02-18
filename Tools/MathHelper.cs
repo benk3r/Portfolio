@@ -5,8 +5,8 @@ namespace Tools
   public class MathHelper
   {
     #region Trigonometry
-
-    public static double ConvertRadiansToDegrees(double radians)
+    
+    public static double RadiansToDegrees(double radians)
     {
       return (180 / Math.PI) * radians;
     }
@@ -19,6 +19,7 @@ namespace Tools
     {
       return Math.Acos((Math.Pow(a, 2) + Math.Pow(b, 2) - Math.Pow(c, 2))/(2 * a * b));
     }
-    #endregion
+
+    #endregion Trigonometry
   }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Tools
 {
-  public class DateTimeHelper
+  public class DateTimeExtensions
   {
   }
 }

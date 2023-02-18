@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Tools.Tests
 {
   [TestClass]
-  public class StringHelperTests
+  public class DateTimeExtensionsTests
   {
 
   }

@@ -13,9 +13,9 @@ namespace Tools.Tests
   public class MathHelperTests
   {
     [TestMethod]
-    public void ConvertRadiansToDegreesTest()
+    public void RadiansToDegreesTest()
     {
-      Assert.IsTrue(MathHelper.ConvertRadiansToDegrees(1.5707963267948966) == 90);
+      Assert.IsTrue(MathHelper.RadiansToDegrees(1.5707963267948966) == 90);
     }
 
     [TestMethod]
