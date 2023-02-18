@@ -12,6 +12,20 @@ namespace Tools.Tests
   [TestClass]
   public class MathHelperTests
   {
+
+    #region Arithmetic
+
+    [TestMethod] 
+    public void IsOddTest()
+    {
+      Assert.IsTrue(MathHelper.IsOdd(5));
+      Assert.IsFalse(MathHelper.IsOdd(6));
+    }
+
+    #endregion Arithmetic
+
+    #region Trigonometry
+
     [TestMethod]
     public void RadiansToDegreesTest()
     {
@@ -23,7 +37,8 @@ namespace Tools.Tests
     {
       Assert.IsTrue(MathHelper.LawOfCosinesForGamma(3, 4, 5) == 1.5707963267948966);
       Assert.IsTrue(MathHelper.LawOfCosinesForGamma(20, 22, 18) == 0.881021326009397);
-    } 
+    }
 
+    #endregion Trigonometry
   }
 }

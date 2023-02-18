@@ -4,8 +4,19 @@ namespace Tools
 {
   public class MathHelper
   {
+    #region Arithmetic
+
+    /// <param name="number"></param>
+    /// <returns>bool representing if the number is odd.</returns>
+    public static bool IsOdd(long number)
+    {
+      return (number % 2 == 0);
+    }
+
+    #endregion Arithmetic
+
     #region Trigonometry
-    
+
     public static double RadiansToDegrees(double radians)
     {
       return (180 / Math.PI) * radians;
