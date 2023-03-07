@@ -10,6 +10,6 @@ namespace Tools.Tests
   [TestClass]
   public class StringExtensionsTests
   {
-
+    
   }
 }
