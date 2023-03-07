@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 
 namespace Tools.Tests
 {
+  // Mainly functions related to the DateTime class.
   [TestClass]
   public class DateTimeExtensionsTests
   {
-    
+
   }
 }
