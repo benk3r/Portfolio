@@ -9,6 +9,7 @@ using Tools;
 
 namespace Tools.Tests
 {
+  // General helper for common calculations.
   [TestClass]
   public class MathHelperTests
   {
